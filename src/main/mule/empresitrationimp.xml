@@ -2,4 +2,10 @@
 
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd"></mule>
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="empresitrationimpFlow" doc:id="41798170-6a1b-4bac-af2a-bd204e0eb386" >
+		<logger level="INFO" doc:name="Logger" doc:id="901b0aff-9b85-4acc-acd5-41f61b67f9a7" />
+		<logger level="INFO" doc:name="Logger" doc:id="7fda9242-bf22-44b2-8fe4-fc5a7e59526f" />
+		<logger level="INFO" doc:name="Logger" doc:id="a879aba1-0c17-4b41-bb07-af10e5878f94" />
+	</flow>
+</mule>
