@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:db="http://www.mulesoft.org/schema/mule/db" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd">
+	<flow name="createEmployee-implementationFlow" doc:id="08568a3f-0f9b-41fc-8610-6b514f75244b" >
+		<logger level="INFO" doc:name="Logger" doc:id="266ecf5e-db0f-4666-92da-9566ad0a7373" message="****createEmployee-implementationFlow-start****"/>
+		<logger level="INFO" doc:name="Logger" doc:id="93702faf-97fb-4035-845d-bba4c348417a" message="****payloadLogger #[payload]*******"/>
+		<logger level="INFO" doc:name="Logger" doc:id="edcfe572-dab5-4ef2-a45d-ea0d5119d50f" message="****createEmployee-implementationFlow-end****"/>
+	</flow>
+</mule>
